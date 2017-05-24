@@ -16,9 +16,9 @@
 		746F5FD91ED5BB070003DFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746F5FD71ED5BB070003DFE8 /* LaunchScreen.storyboard */; };
 		746F5FE41ED5BB070003DFE8 /* ProjectSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746F5FE31ED5BB070003DFE8 /* ProjectSetTests.m */; };
 		746F5FEF1ED5BB080003DFE8 /* ProjectSetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746F5FEE1ED5BB080003DFE8 /* ProjectSetUITests.m */; };
-		746F5FFF1ED5BC970003DFE8 /* UIView+EmptyDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 746F5FFE1ED5BC970003DFE8 /* UIView+EmptyDataView.m */; };
 		746F60021ED5BED50003DFE8 /* HZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746F60011ED5BED50003DFE8 /* HZWebViewController.m */; };
-		746F60051ED5BF120003DFE8 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 746F60041ED5BF120003DFE8 /* UIView+Category.m */; };
+		746F600B1ED5C0F80003DFE8 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 746F60081ED5C0F80003DFE8 /* UIView+Category.m */; };
+		746F600C1ED5C0F80003DFE8 /* UIView+EmptyDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 746F600A1ED5C0F80003DFE8 /* UIView+EmptyDataView.m */; };
 		8DABCD3C4234D6826CCC3808 /* libPods-ProjectSetUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8A56B5E6028579C2C451E /* libPods-ProjectSetUITests.a */; };
 		D048E9FD0AE035ED250BB2A3 /* libPods-ProjectSetTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8E34588B984550CBB27FCB /* libPods-ProjectSetTests.a */; };
 /* End PBXBuildFile section */
@@ -61,12 +61,12 @@
 		746F5FEA1ED5BB070003DFE8 /* ProjectSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		746F5FEE1ED5BB080003DFE8 /* ProjectSetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectSetUITests.m; sourceTree = "<group>"; };
 		746F5FF01ED5BB080003DFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		746F5FFD1ED5BC970003DFE8 /* UIView+EmptyDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyDataView.h"; sourceTree = "<group>"; };
-		746F5FFE1ED5BC970003DFE8 /* UIView+EmptyDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyDataView.m"; sourceTree = "<group>"; };
 		746F60001ED5BED50003DFE8 /* HZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWebViewController.h; sourceTree = "<group>"; };
 		746F60011ED5BED50003DFE8 /* HZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWebViewController.m; sourceTree = "<group>"; };
-		746F60031ED5BF120003DFE8 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
-		746F60041ED5BF120003DFE8 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		746F60071ED5C0F80003DFE8 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		746F60081ED5C0F80003DFE8 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		746F60091ED5C0F80003DFE8 /* UIView+EmptyDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyDataView.h"; sourceTree = "<group>"; };
+		746F600A1ED5C0F80003DFE8 /* UIView+EmptyDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyDataView.m"; sourceTree = "<group>"; };
 		9AAA94865DF68681FFB43525 /* Pods-ProjectSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectSet/Pods-ProjectSet.debug.xcconfig"; sourceTree = "<group>"; };
 		A5C8A56B5E6028579C2C451E /* libPods-ProjectSetUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectSetUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC687158D049280817F51EE8 /* Pods-ProjectSetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectSetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectSetUITests/Pods-ProjectSetUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -195,12 +195,20 @@
 		746F5FFC1ED5BC860003DFE8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				746F60031ED5BF120003DFE8 /* UIView+Category.h */,
-				746F60041ED5BF120003DFE8 /* UIView+Category.m */,
-				746F5FFD1ED5BC970003DFE8 /* UIView+EmptyDataView.h */,
-				746F5FFE1ED5BC970003DFE8 /* UIView+EmptyDataView.m */,
+				746F60061ED5C0F80003DFE8 /* UIVIew */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		746F60061ED5C0F80003DFE8 /* UIVIew */ = {
+			isa = PBXGroup;
+			children = (
+				746F60071ED5C0F80003DFE8 /* UIView+Category.h */,
+				746F60081ED5C0F80003DFE8 /* UIView+Category.m */,
+				746F60091ED5C0F80003DFE8 /* UIView+EmptyDataView.h */,
+				746F600A1ED5C0F80003DFE8 /* UIView+EmptyDataView.m */,
+			);
+			path = UIVIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,10 +494,10 @@
 			files = (
 				746F60021ED5BED50003DFE8 /* HZWebViewController.m in Sources */,
 				746F5FD11ED5BB070003DFE8 /* ViewController.m in Sources */,
-				746F5FFF1ED5BC970003DFE8 /* UIView+EmptyDataView.m in Sources */,
 				746F5FCE1ED5BB070003DFE8 /* AppDelegate.m in Sources */,
-				746F60051ED5BF120003DFE8 /* UIView+Category.m in Sources */,
+				746F600B1ED5C0F80003DFE8 /* UIView+Category.m in Sources */,
 				746F5FCB1ED5BB070003DFE8 /* main.m in Sources */,
+				746F600C1ED5C0F80003DFE8 /* UIView+EmptyDataView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
