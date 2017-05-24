@@ -13,6 +13,11 @@
  */
 #import "UIView+EmptyDataView.h"
 
+/*
+ * UIView的分类
+ */
+#import "UIView+Category.h"
+
 @interface ViewController ()
 
 @end
@@ -35,6 +40,17 @@
         [self.view addSubview:emptyView];
     }
     
+    /*
+     * UIView添加基本属性，结构体等
+     */
+    {
+        UIView *testView = [[UIView alloc] init];
+        testView.name = @"testView";
+        testView.offset = 100;
+        testView.point = CGPointMake(88, 99);
+        NSLog(@"%@-%@-%f-%f-%f",testView,testView.name,testView.offset,testView.point.x,testView.point.y);
+
+    }
     
 
 }
