@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+/*
+ * 空数据提示图
+ */
 #import "UIView+EmptyDataView.h"
 
 @interface ViewController ()
@@ -20,12 +23,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIView *emptyView = [[UIView alloc] init];
-    emptyView.backgroundColor = [UIColor redColor];
-    emptyView.frame = CGRectMake(0, 0, 200, 400);
-    emptyView.center = self.view.center;
-    [emptyView showEmptyDataViewWithHintMessage:@"换一天试试吧" offSet:CGPointMake(0, 0)];
-    [self.view addSubview:emptyView];
+    /*
+     * 数据为空时的提示视图
+     */
+    {
+        UIView *emptyView = [[UIView alloc] init];
+        emptyView.backgroundColor = [UIColor redColor];
+        emptyView.frame = CGRectMake(0, 0, 200, 400);
+        emptyView.center = self.view.center;
+        [emptyView showEmptyDataViewWithHintMessage:@"换一天试试吧" offSet:CGPointMake(0, 0)];
+        [self.view addSubview:emptyView];
+    }
+    
+    
 
 }
 
